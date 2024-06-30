@@ -1,0 +1,116 @@
+.content__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.content {
+    width: 1440px;
+    margin: auto;
+}
+.content__top {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.content__top__first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #979ba3;
+    cursor: pointer;
+}
+.content__top__separator {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.content__top__second {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.content__top__second__svg img{
+    transform: scale(-1, 1);
+    width: 34px;
+    height: 34px;
+}
+.content__top__second__text {
+    font-size: 40px;
+    margin-left: 14px;
+    font-weight: bolder;
+}
+.content__main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 170px;
+}
+.content__main__bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+.content__main__first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 370px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555555;
+}
+.content__main__second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 370px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555555;
+}
+.content__main__third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 370px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555555;
+}
+.content__main__top {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 65px;
+}
+.content__main__top span{
+    color: #20bdff;
+}
+.content__main__first__number {
+    padding: 8px 18px;
+    font-size: 30px;
+    background-color: #20bdff;
+    color: white;
+    margin-right: 14px;
+}
+.content__main__second__number {
+    padding: 8px 18px;
+    font-size: 30px;
+    background-color: #ffc42d;
+    color: white;
+    margin-right: 14px;
+}
+.content__main__third__number {
+    padding: 8px 18px;
+    font-size: 30px;
+    background-color: #20bdff;
+    color: white;
+    margin-right: 14px;
+}

@@ -1,0 +1,37 @@
+.firstService__bottom {
+    background-color: #eaf1f4;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstService__bottom__left {
+    display: flex;
+    flex-direction: column;
+}
+.firstService__bottom__left h1 {
+    font-size: 20px;
+    max-width: 250px;
+}
+.firstService__bottom__right__btn {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffb73d;
+    padding: 3px 30px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.firstService__bottom__right__btn img{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+.firstService__bottom__right__btn:hover {
+    transform: scale(1.04);
+}
+.firstService__bottom__right__btn h1{
+    font-size: 16px;
+    margin-right: 6px;
+}

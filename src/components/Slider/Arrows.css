@@ -1,0 +1,33 @@
+.arrows {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  position: absolute;
+  top: 43%;
+  width: 100%;
+  z-index: 1;
+}
+.arrows .arrow {
+  height: 30px;
+  width: 30px;
+}
+.arrows .arrow:hover {
+  cursor: pointer;
+}
+.arrows .arrow.left {
+  background-image: url(../../assets/Arrow/SliderArrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #c2c2c2;
+  border-radius: 6px;
+  transform: rotate(180deg);
+}
+.arrows .arrow.right {
+  background-image: url(../../assets/Arrow/SliderArrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #c2c2c2;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=Arrows.css.map */
